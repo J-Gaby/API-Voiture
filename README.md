@@ -13,6 +13,7 @@ les voitures sont détaillés comme ci dessous :
   - prix
 
 Toutes les données sont accéssibles et modifiables dans l'ordre donné ci-dessus, depuis l'URL en ajoutant à la suite les liens disponibles ci-dessous.
+
 exemple : localhost/voitures/create.php?marque=valeur1&modele=valeur2&gamme=valeur3&prix=valeur4
 
 Chemin : localhost/voitures
