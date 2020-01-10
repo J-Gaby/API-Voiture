@@ -3,9 +3,9 @@
 ## Imoprter la bdd
 Crées une bdd "voitures" puis importer la table "info" dnas celle-ci.
 
-# Renommer le fichier(fichier .zip) en : voitures
+## Renommer le fichier(fichier .zip) en : voitures
 
-# Accés
+## Accés
 les voitures sont détaillés comme ci dessous :
   - marque
   - modele
