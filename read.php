@@ -4,14 +4,12 @@ $id = $_GET["id"];
 
 $query = 'SELECT * FROM info WHERE id= ' .$id;
 
-echo ($query);
+$preparedQuery = $dbConnection->prepare($query);
 
-// $preparedQuery = $dbConnection->prepare($query);
+$preparedQuery->execute();
 
-// $preparedQuery->execute();
+$infos = $preparedQuery->fetch();
 
-// $infos = $preparedQuery->fetch();
-
-// echo json_encode($infos);
+echo json_encode($infos);
 
 ?>
